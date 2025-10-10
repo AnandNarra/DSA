@@ -12,10 +12,12 @@ public class pattern {
 
                 System.out.print(" ");
             }
+int cval=1;
 
             for(int col =1 ;col <=st; col++){
 
-                System.out.print("*");
+                System.out.print(cval);
+                cval+=1;
             }
 
             st= st+2;
